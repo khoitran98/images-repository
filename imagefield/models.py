@@ -7,3 +7,9 @@ class ImagefieldModel(models.Model):
 
     class Meta:
         db_table = "imageupload"
+
+class GetImage(models.Model):   
+    title = models.CharField(max_length=100)
+    img = models.ImageField(upload_to="media")
+    class Meta:
+        db_table = "gallery"

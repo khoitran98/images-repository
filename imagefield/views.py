@@ -1,7 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from .forms import ImagefieldForm
 from .models import ImagefieldModel 
+from .models import GetImage 
 # Create your views here.
   
 # Create your views here. 
