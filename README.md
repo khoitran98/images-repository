@@ -17,13 +17,13 @@ An Image Repository that you can add, delete, and search for similar images.
 <h2>To run the project</h2>
 <code>python manage.py runserver</code>
 
-<h2> Tech Stack </h2>
+## Tech Stack
 * Django/Python3
 * MySQL
 * Google Cloud Storage
 * ImageHash 4.2.0
 
-<h2> Description </h2>
+## Description
 * Images are processed using ImageHash 4.2.0 Perceptual Hashing.
 * Uploaded image is stored in the Google Cloud Storage, its Google Cloud url and hash data is stored in MySQL database.
 * Search is implemented by comparing hash between the search image's hash and those of the database images.
