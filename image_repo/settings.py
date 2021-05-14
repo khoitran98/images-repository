@@ -89,7 +89,7 @@ DATABASES = {
         'NAME': 'imagerepo',
         'USER': '',
         'PASSWORD': '',
-        'HOST': 'database-1.cqnr6pw8wcjr.us-east-2.rds.amazonaws.com',
+        'HOST': '',
         'PORT': '3306',
     }
 }
