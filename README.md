@@ -7,7 +7,7 @@
 <h2>Prerequisites</h2>
 <code>python== 3.7</code>
 
-<h2>Install packages after clonning </h2>
+<h2>Install packages after clonning (preferably in a virtual environment) </h2>
 <code>pip install requirements.txt </code><br>
 
 <h2>Migrate the database</h2>
@@ -34,5 +34,4 @@
 * Uploaded image is stored in the AWS S3.
 * Each image has an user_id as a foreign key; its AWS S3 url reference, title, hash(bigint unsigned) is stored in a MySQL database (hosted on AWS RDS).
 * Search is implemented by using MySQL's BIT_COUNT to compare the hash between the search image's hash and those of the database's images. A BIT_COUNT < 5 is considered a match.
-* Live version currently hosted on Heroku.
 
