@@ -1,8 +1,8 @@
 # Django-Image-Repository App
 
 <h1>Getting Started</h1>
-<p> An Image Repository that you can login and search for similar images. </p>
-<p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. However, access to AWS S3, AWS RDS, or MySQL is not available in the public repository. Testers have to provide their own access keys and migrate the database for this project to run in the desired manner locally. Tester can see a live version of this running on https://rocky-beyond-58728.herokuapp.com/</p>
+<p> An Image Repository that you can login, upload, and search for similar images. </p>
+<p>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. However, access to AWS S3, AWS RDS, or MySQL is not available in the public repository. Testers have to provide their own access keys and migrate the database for this project to run in the desired manner locally.</p>
 
 <h2>Prerequisites</h2>
 <code>python== 3.7</code>
